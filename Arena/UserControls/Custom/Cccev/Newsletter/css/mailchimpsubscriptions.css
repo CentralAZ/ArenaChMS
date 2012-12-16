@@ -1,0 +1,130 @@
+﻿/**********************************************************************
+* Description: Styles for CccevMailChimp module
+* Created By:   Nick Airdo @ Central Christian Church of the East Valley
+* Date Created:	10/19/2009 16:42:02
+*
+* $Workfile: mailchimpsubscriptions.css $
+* $Revision: 3 $ 
+* $Header: /trunk/Arena/UserControls/Custom/Cccev/Newsletter/css/mailchimpsubscriptions.css   3   2011-07-15 23:18:47-07:00   nicka $
+* 
+* $Log: /trunk/Arena/UserControls/Custom/Cccev/Newsletter/css/mailchimpsubscriptions.css $
+*  
+*  Revision: 3   Date: 2011-07-16 06:18:47Z   User: nicka 
+*  For Version 1.1.0 to support MailChimp "Groups" (aka INTERESTS). 
+*  
+*  Revision: 2   Date: 2009-10-27 22:46:22Z   User: nicka 
+*  
+*  Revision: 1   Date: 2009-10-26 18:19:53Z   User: nicka 
+*  Used with the MailChimpSubscriptions integration module. 
+**********************************************************************/
+
+/* General 'fading' user message -- candidate for general library */
+.fadingMessage
+{
+	background-color: #FFFFCC;
+	border: solid 1px #CCCC99;
+	padding: 5px 8px 5px 8px;
+	color: #555555;
+	-moz-border-radius: 4px;
+}
+
+/* Cccev MailChimp Module Specific */
+.CccevMailChimp ul li
+{
+	list-style: none;
+	display: block;
+	float: left;
+	padding-right: 10px;
+}
+
+/* this contains everything that needs to have overlayed items */
+.CccevMailChimp .itemContainer
+{
+	position: relative;
+	width: 228px;
+	height: 64px;
+}
+
+	.CccevMailChimp li .itemContainer img
+	{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 128px;
+		height: 64px;
+	}
+
+	.CccevMailChimp li .itemContainer span
+	{
+		position: absolute;
+		top: 10px;
+		left: 8px;
+		color: Gray;
+		font-weight:bold;
+	}
+
+	.CccevMailChimp .itemContainer input.buttonSubscribe
+	{
+		background: url("../images/not_subscribed_list.png") no-repeat 0 0;
+		width: 128px;
+		height: 64px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+
+	.CccevMailChimp .itemContainer input.buttonSubscribe:hover
+	{
+		background: url("../images/subscribe_list.png") no-repeat 0 0;
+	}
+
+	.CccevMailChimp .itemContainer input.buttonPending
+	{
+		background: url("../images/pending_list.png") no-repeat 0 0;
+		width: 128px;
+		height: 64px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+
+	.CccevMailChimp .itemContainer input.buttonUnsubscribe
+	{
+		background: url("../images/subscribed_list.png") no-repeat 0 0;
+		width: 128px;
+		height: 64px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+
+	.CccevMailChimp .itemContainer input.buttonUnsubscribe:hover
+	{
+		background: url("../images/unsubscribe_list.png") no-repeat 0 0;
+	}
+
+/* checkboxes for MailChimp groupings/interests */
+.CccevMailChimp ul li table
+{
+	font-size: 10px;
+	width: 200px;
+}
+
+.CccevMailChimp ul li table tr td
+{
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+.CccevMailChimp a.buttonSaveGroups
+{
+    font-size: 11px;
+    padding-left: 4px;
+    display: none;
+}
+
+.CccevMailChimp span.fadingMessage
+{
+	/* clear: left; */
+	/* margin-top:20px; */
+}

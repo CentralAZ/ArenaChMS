@@ -1,0 +1,31 @@
+<ArenaPackage version="2009.2.100.1401">
+  <Readme>v1.1.0 - See README.doc for full details and setup instructions.</Readme>
+  <Modules>
+    <Module temp_module_id="-1" module_url="UserControls/Custom/Cccev/Newsletter/MailChimpSubscriptions.ascx" module_name="MailChimp Subscriptions" module_desc="Integrates with MailChimp to show a person's status on a MailChimp List and also allows for convenient one-click subscribe/unsubscribe functionality.  (Subscribing a person this way still requires that they opt-in via the email they receive from MailChimp).&#xD;&#xA;&#xD;&#xA;This module depends on:&#xD;&#xA; - MailChimp 1.1 API DLL (MailChimp_v1_1.dll)&#xD;&#xA; - CookComputing.XmlRpcV2.dll&#xD;&#xA; - A lookup type which contains all the MailChimp Lists&#xD;&#xA;   with these values and qualifiers.&#xD;&#xA;&#x9;* Lookup value: the Name of the List/Newsletter&#xD;&#xA;&#x9;* Qualifier 1: MailChimp ListID&#xD;&#xA;&#x9;* Qualifier 2: corresponding Arena NewsletterID (int)&#xD;&#xA;&#x9;* Qualifier 8: Background image URL to use&#xD;&#xA;&#x9;  when displaying newsletter status for the person.&#xD;&#xA;" allows_child_modules="0" image_path="UserControls/Custom/Cccev/Newsletter/images/mailchimp_module_icon.jpg" _source="UserControls/Custom/Cccev/Newsletter/MailChimpSubscriptions.ascx" _source_image="UserControls/Custom/Cccev/Newsletter/images/mailchimp_module_icon.jpg" _system="0" />
+  </Modules>
+  <Pages />
+  <Files>
+    <File path="UserControls/Custom/Cccev/Newsletter/css/mailchimpsubscriptions.css" _source="UserControls/Custom/Cccev/Newsletter/css/mailchimpsubscriptions.css" />
+    <File path="UserControls/Custom/Cccev/Newsletter/images/default_list_bg.png" _source="UserControls/Custom/Cccev/Newsletter/images/default_list_bg.png" />
+    <File path="UserControls/Custom/Cccev/Newsletter/images/list_subscribe.psd" _source="UserControls/Custom/Cccev/Newsletter/images/list_subscribe.psd" />
+    <File path="UserControls/Custom/Cccev/Newsletter/images/mailchimp_module_icon.jpg" _source="UserControls/Custom/Cccev/Newsletter/images/mailchimp_module_icon.jpg" />
+    <File path="UserControls/Custom/Cccev/Newsletter/images/not_subscribed_list.png" _source="UserControls/Custom/Cccev/Newsletter/images/not_subscribed_list.png" />
+    <File path="UserControls/Custom/Cccev/Newsletter/images/null.gif" _source="UserControls/Custom/Cccev/Newsletter/images/null.gif" />
+    <File path="UserControls/Custom/Cccev/Newsletter/images/pending_list.png" _source="UserControls/Custom/Cccev/Newsletter/images/pending_list.png" />
+    <File path="UserControls/Custom/Cccev/Newsletter/images/subscribed_list.png" _source="UserControls/Custom/Cccev/Newsletter/images/subscribed_list.png" />
+    <File path="UserControls/Custom/Cccev/Newsletter/images/subscribe_list.png" _source="UserControls/Custom/Cccev/Newsletter/images/subscribe_list.png" />
+    <File path="UserControls/Custom/Cccev/Newsletter/images/unsubscribe_list.png" _source="UserControls/Custom/Cccev/Newsletter/images/unsubscribe_list.png" />
+    <File path="UserControls/Custom/Cccev/Newsletter/js/effects.js" _source="UserControls/Custom/Cccev/Newsletter/js/effects.js" />
+    <File path="bin/MailChimp_v1_1.dll" _source="bin/MailChimp_v1_1.dll" />
+    <File path="bin/CookComputing.XmlRpcV2.dll" _source="bin/CookComputing.XmlRpcV2.dll" />
+  </Files>
+  <Info>
+    <Distributor>CCCEV</Distributor>
+    <PackageName>MailChimp Subscriptions</PackageName>
+    <Version>1.1.0</Version>
+    <Synopsis>An Arena to MailChimp Integration Module</Synopsis>
+    <Description>Using this module you can quickly see if a person is subscribed or not to your MailChimp newsletters (called Lists in MailChimp).  Additionally it has convenient one-click functionality to subscribe or unsubscribe the person to the list.</Description>
+    <Changelog Version="1.1.0"></Changelog>
+  </Info>
+  <Migration _source="" />
+</ArenaPackage>
