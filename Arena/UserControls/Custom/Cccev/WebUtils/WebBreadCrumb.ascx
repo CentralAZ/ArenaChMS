@@ -1,0 +1,2 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeFile="WebBreadCrumb.ascx.cs" Inherits="ArenaWeb.UserControls.Custom.WebUtils.WebBreadCrumb" %>
+<asp:Label ID="lblBreadcrumb" runat="server" Text="Label"></asp:Label>

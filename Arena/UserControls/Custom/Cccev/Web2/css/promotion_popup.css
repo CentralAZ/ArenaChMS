@@ -1,0 +1,42 @@
+﻿html,body{height:100%}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0 auto;
+	padding:0;
+	background-color:#fff;
+	color:#9b9b9b;
+	height:100%;
+}
+
+a {
+	color:black;
+	text-decoration:none;
+}
+
+a:link, a:hover, a:visited {
+	color:#1687C5;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+div.promoDetailWrap
+{
+	min-width: 300px;
+	min-height: 200px;
+	max-width: 600px;
+	padding: 10px;
+}
+
+img.promotionImage
+{
+	float: left;
+	padding-right: 10px;
+}
+
+div.promoContactText
+{
+	padding-top: 15px;
+}

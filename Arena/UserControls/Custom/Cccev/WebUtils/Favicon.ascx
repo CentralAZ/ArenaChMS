@@ -1,0 +1,2 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Favicon.ascx.cs" Inherits="ArenaWeb.UserControls.Custom.Cccev.WebUtils.Favicon" %>
+<%@ Register TagPrefix="Arena" Namespace="Arena.Portal.UI" Assembly="Arena.Portal.UI" %>

@@ -1,0 +1,2 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeFile="PortalPageBreadCrumb.ascx.cs" Inherits="ArenaWeb.UserControls.Custom.WebUtils.PortalPageBreadCrumb" %>
+<asp:PlaceHolder ID="phBreadCrumbs" runat="server" />

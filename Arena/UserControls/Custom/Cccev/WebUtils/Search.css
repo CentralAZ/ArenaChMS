@@ -1,0 +1,79 @@
+﻿/* These CSS classes are used to control the style of the search results */
+
+/* Outer DIV container that holds all the search result elements */
+.searchResults
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	margin-left: 20px;
+}
+.searchResultSummary
+{
+	text-align: right;
+	background-color: #E0E0E0;
+	font-size: 10px;
+	padding: 5px 5px 5px 5px;
+	margin-top: 10px;
+}
+.searchResultTitle
+{
+	color: #003399;
+}
+.searchResultTitle a:link
+{
+	color: #003399;
+}
+.searchResultTitle a:visited
+{
+	color: #003399;
+}
+.searchResultDescription
+{
+	font-size: 1em;
+	color: #333333;
+}
+.searchResultMeta
+{
+	MARGIN: 0px 0px 15px;
+	color: #8c8c8c;
+	margin-bottom: 20px;
+}
+.searchResultLink
+{
+	color: #008800;
+	font-size: 1em;	
+}
+.searchResultLink a:link
+{
+	color: #008800;
+	font-size: 1em;
+	text-decoration: none;
+}
+.searchResultLink a:visited
+{
+	color: #008800;
+	font-size: 1em;	
+	text-decoration: none;
+}
+.searchResultsPager
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	padding: 5px 5px 5px 5px;
+	margin: 2px 2px 2px 2px;
+}
+.searchResultError
+{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 12px;
+	color: #880000;
+}
+.searchResultNone
+{
+	margin-left: 20px;
+	font-size: 12px;
+	color: #555555;
+	padding: 5px 5px 5px 5px;
+	margin-top: 10px;
+}

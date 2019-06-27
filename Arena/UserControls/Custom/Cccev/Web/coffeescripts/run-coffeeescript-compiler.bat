@@ -1,0 +1,2 @@
+cd ..\..\..\..\..\..\..\packages\CoffeeSharp.0.3\tool
+coffee.exe --watch -o ../../../../Source/Arena/UserControls/Custom/Cccev/Web/scripts -c ../../../../Source/Arena/UserControls/Custom/Cccev/Web/scripts/src

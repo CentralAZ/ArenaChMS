@@ -1,0 +1,1 @@
+﻿$(document).ready(function(){$("a[rel='portfolio']").colorbox({transition:"fade"}); });

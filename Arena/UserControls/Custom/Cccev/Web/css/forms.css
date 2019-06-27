@@ -1,0 +1,198 @@
+﻿.fb-auth > div, #signup-form > ol > li > div {
+    display: none;
+}
+
+.fb-auth > div {
+	padding: 20px;
+}
+
+.connect-account, .connect-success {
+	display: none;
+	padding: 20px;
+	color: #e9e9e9 !important;
+	background: #444;
+	opacity: .97;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -480px;
+	width: 960px;
+	height: 70px;
+	box-shadow: 0 0 7px 0px rgba(50, 50, 50, .7);;
+	-webkit-box-shadow: 0 0 7px 0px rgba(50, 50, 50, .7);
+	-moz-box-shadow: 0 0 7px 0px rgba(50, 50, 50, .7);
+	border-radius: 0px 0px 7px 7px;
+	border-bottom: 1px solid #222;
+	border-left: 1px solid #222;
+	z-index: 500;
+}
+
+	.connect-account .close, .connect-success .close {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		height: 20px;
+		width: 20px;
+	}
+	
+		.connect-account .close a, .connect-success .close a {
+			font-size: 14px !important;
+			color: #ccc;
+			font-weight: bold;
+			text-decoration: none;
+		}
+		
+	.connect-success img {
+		float: left;
+		margin-right: 20px;
+	}
+
+	.connect-account p, .connect-success p {
+		color: #e9e9e9 !important;
+		font-size: 12px;
+		line-height: 18px;
+		max-width: 900px;
+		float: left;
+		margin: 0px;
+		padding-bottom: 10px;
+	}
+	
+	.connect-account a {
+		color: #ccc !important;
+		display: block;
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.connect-account .fb-opt-out {
+		height: 25px;
+	}
+
+.fbbutton {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	text-indent: -1000px;
+    *text-indent: 0px;
+    *font-size: 0px;
+    *line-height: 0px;
+	overflow: hidden;
+	padding: 0px;
+	cursor: pointer;
+}
+
+.facebook-login {
+	background: url(../images/fb-login.jpg) no-repeat !important;
+	height: 22px;
+	width: 65px;
+    border: none !important;
+}
+
+a.fblogout {
+    font-size: 14px;
+    height: auto;
+    line-height: normal;
+    padding-top: 15px;
+}
+
+input[type="submit"].facebook-register,
+input[type="submit"].facebook-register:hover {
+	background: url(../images/fb-register.jpg) no-repeat !important;
+	height: 22px;
+	width: 83px;
+	border: none !important;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    margin: 0px 10px 0px 0px;
+    *font-size: 0px;
+    *line-height: 0px;
+}
+
+.facebook-connect {
+	background: url(../images/fb-connect.png) no-repeat !important;
+	height: 25px;
+	width: 107px;
+    border: none !important;
+}
+
+.greeting > h3 {
+	font-size: 18px;
+}
+
+.greeting > p {
+	font-size: 16px;
+}
+
+#signup-form > ol {
+	margin: 0px;
+	padding: 0px 0px 0px 20px;
+}
+
+#signup-form > ol > li {
+	list-style-type: none !important;
+}
+
+#signup-form dt, #signup-form dd {
+	margin: 0px;
+	font-size: 14px;
+}
+
+#signup-form dt {
+	padding-bottom: 5px;
+}
+
+#signup-form dd {
+	padding-bottom: 10px;
+}
+
+#signup-form li div p {
+    display: block;
+    height: 25px;
+}
+
+.im-new, .have-account {
+	color: #666;
+	background: #f1f1f1;
+    border: solid 1px #e9e9e9;
+    border-top: solid 1px #fff;
+    border-left: solid 1px #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.5);
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.5);
+	display: block;
+	padding: 10px;
+	font-size: 18px;
+	margin: 0px 0px 20px -20px;
+	max-width: 350px;
+    text-decoration: none;
+}
+
+.im-new:hover, .have-account:hover {
+	color: #333 !important;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.im-new > a:hover, .have-account > a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#signup-form .buttons {
+	margin: 0px;
+	padding: 0px;
+}
+
+#signup-form .no-pad {
+	padding-bottom: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+#signup-form .buttons > li {
+	list-style-type: none;
+	display: inline;
+}

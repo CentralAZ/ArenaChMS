@@ -1,0 +1,91 @@
+﻿/**********************************************************************
+* Description:	Style for 007 main navigation
+* Created By:	Nick Airdo @ Central Christian Church of the East Valley
+* Date Created:	10/19/2011 12:59:59 PM
+*
+* $Workfile: mainnavigation.css $
+* $Revision: 7 $ 
+* $Header: /trunk/Arena/UserControls/Custom/Cccev/Web/css/mainnavigation.css   7   2011-11-14 11:27:14-07:00   nicka $
+**********************************************************************/
+.main-nav {
+	display: block;
+	margin: 0px;
+	width: 500px;
+	float: right;
+	padding: 9px 0px 0px;
+}
+
+.main-nav li {
+	list-style-type: none;
+	display: block;
+	float: left;
+	font-size: 14px;
+}
+
+.main-nav > li > a {
+	padding-top: 0px;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.main-nav ul > li > a {
+	color: #666;
+	display: block;
+	height: 18px;
+	padding: 5px 0px 0px;
+	text-decoration: none;
+}
+
+.main-nav > li {
+	padding-left: 30px;
+}
+
+.main-nav > li > ul {
+    display: none;
+}
+
+.main-nav li a.drop, .main-nav li a.campus {
+    background: url(../img/nav-drop.png) no-repeat 94px 34px;
+}
+.main-nav li a:hover, .main-nav li a.drop:hover, .main-nav li a.campus:hover, .main-nav li a.selected {
+    color: #222;
+}
+.sub-nav {
+	background-color: #f1f1f1;
+	border-left: 1px solid #fff;
+	border-top: 1px solid #fff;
+	-moz-box-shadow: 0 0 7px 0px rgba(50,50,50,0.5);
+	-webkit-box-shadow: 0 0 7px 0px rgba(50,50,50,0.5);
+	box-shadow: 0 0 7px 0px rgba(50,50,50,0.5);
+	border-radius: 0px 10px 10px 10px;
+	-moz-border-radius: 0px 10px 10px 10px;
+	-webkit-border-radius: 0px 10px 10px 10px;
+	zoom: 1;
+	opacity: 0.97;
+	filter: alpha(opacity=97);
+	position: absolute;
+	width: 450px;
+	padding: 0px 20px 20px 0px;
+	margin: 5px 0px 0px;
+}
+ul.three-col 
+{
+	padding-left: 10px;
+}
+.sub-nav > li {
+}
+.sub-nav > li > h3 {
+	border-bottom: 1px solid #CCC;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	width: 420px;
+	color: #bbb;
+}
+.sub-nav li a {
+	/*line-height: 12px;
+	height: 8px;*/
+	width: 140px;
+}
